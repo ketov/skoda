@@ -1,0 +1,20 @@
+.action{
+    background: url('../img/action.png') no-repeat 50% 50%;
+    background-size: cover !important; 
+    color: #fff;
+    font-family: $SB;    
+    margin: -32px 0 0 0;
+    min-width: 960px;
+    padding: 0 0 400px;
+    .wrapper{
+        padding: 37px 0 0 0;
+    }
+    h1{
+        font-size: 225%;
+        line-height: 115%;
+        margin: 0;
+        padding: 0 0 0 9px;
+        text-shadow: -2px 2px 0px rgba(164, 162, 162, 0.5);
+        text-transform: uppercase;        
+    }
+}

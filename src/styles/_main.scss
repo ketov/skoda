@@ -1,0 +1,31 @@
+body{
+    color: #000000;
+    font-family: $SR;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    margin: 0 auto;
+    min-width: 960px;
+    width: 960px;
+    padding: 0;
+}
+
+.clear{
+    clear: both;
+}
+
+.overflow-hidden{
+    overflow: hidden;
+}
+
+@font-face{
+    font-family: SkodaRegular;
+    src: url('../fonts/skodapro-regular-webfont.ttf');
+}
+
+@font-face{
+    font-family: SkodaBold;
+    src: url('../fonts/skodapro-bold-webfont.ttf');
+}

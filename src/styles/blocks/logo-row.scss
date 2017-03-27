@@ -1,0 +1,20 @@
+.logo-row{
+    min-width: 960px;
+    position: relative;
+    &:after{
+        background: #616160;
+        bottom: 26px;
+        content: "";
+        height: 1px;
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+    }
+    &__link{
+        display: block;
+        float: right;
+    }
+    &__img{
+        display: block;
+    }
+}

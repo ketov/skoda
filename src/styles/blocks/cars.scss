@@ -1,0 +1,82 @@
+.cars{
+    h1{
+        font-family: $SB;
+        font-size: 225%;
+        margin: 0;
+        padding: 41px 0 33px 0;
+        text-align: center;
+    }
+    h2{
+        font-family: $SB;
+        margin: 9px auto 51px;
+        max-width: 236px;
+        span{
+            font-family: $SR;
+            font-weight: normal;
+        }
+    }
+    &__car-block{
+        float: left;
+        margin: 0 11px 24px 0;
+        padding: 39px 0 0 0;
+        text-align: center;
+        width: 310px;
+        &--plate{
+            background: #4ba82e;
+            color: #fff;
+            margin: 0 0 0 9px;
+            padding: 0px 0px 0px 18px;
+            text-align: left;
+            width: 278px;
+            h3{
+                font-family: $SB;
+                font-size: 175%;
+                line-height: 110%;
+                margin: 0;                
+                padding: 16px 0 60px 0;
+            }
+            a{
+                color: #fff;
+                display: block;
+                font-family: $SB;
+                font-size: 175%;
+                margin: 0 0 5px 0;
+                text-decoration: none;
+            }
+            div{
+                font-size: 115%;
+            }
+        }
+        img{
+            width: 100%;
+        }
+        &:nth-child(3n){
+            margin: 0 0 24px 0;
+        }
+    }
+    &__price{
+        border-bottom: 1px solid #9f9f9f;
+        border-left: 1px solid #9f9f9f;
+        border-top: 1px solid #9f9f9f;
+        float: left;
+        margin: 0 0 0 10px;
+        padding: 1px 0 4px 0;
+        width: 46%;
+    }
+    &__button{
+        background: #4ba82e;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        float: left;
+        font-family: $SB;
+        outline: none;
+        padding: 16px 0 13px 0;
+        width: 152px;
+    }
+    &__price-price{
+        font-family: $SB;
+        font-size: 110%;
+        margin: -3px 0 0 0;
+    }
+}

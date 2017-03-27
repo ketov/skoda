@@ -1,0 +1,37 @@
+.menu{
+    border-bottom: 1px solid #cdcdcd;
+    &__links-container{
+        float: right;
+        padding: 22px 58px 15px 0;
+        a{
+            color: $black;
+            float: right;
+            font-size: 90%;
+            margin: 0 26px 0 0;
+            padding: 12px 0;
+            text-decoration: none;
+        }
+    }
+}
+.eTimer{
+    padding: 7px 0 0 8px !important;
+}
+.eTimer .etTitle{
+    margin: 0 !important;
+}
+.eTimer .etSep{
+    font-family: SkodaBold, sans-serif !important;
+    font-size: 210% !important;
+    padding: 0px 3px 0 3px !important;
+}
+.eTimer .etUnit .etNumber{
+    font-size: 210% !important;
+    width: auto !important;
+}
+.eTimer .etTitle{
+    font-size: 90%!important;
+}
+.eTimer .etUnit .etSign{
+    font-size: 75% !important;
+    margin: -4px 0 0 0 !important;
+}
