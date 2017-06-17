@@ -1,0 +1,53 @@
+.rolf-info{
+    padding: 43px 0 0 0;
+    h1{
+        font-family: $SB;        
+        font-size: 190%;
+        line-height: 130%;
+        margin: 0 auto;
+        max-width: 550px;
+        padding: 0 0 17px 0;
+        text-align: center;
+    }
+    h2{
+        font-family: $SB;
+        font-size: 185%;
+        margin: 0 0 7px 0;
+        padding: 0 0 15px 9px;
+        position: relative;
+        &:after{
+            background: $green;
+            bottom: 0;
+            content: "";
+            height: 10px;
+            left: 0;
+            position: absolute;
+            width: 100%;
+        }
+    }
+    .phone{
+        color: $black;
+        font-family: $SB;
+        text-decoration: none;
+    }
+    p{
+        font-size: 115%;
+        margin: 0;
+        text-align: center;
+    }
+    &__columns-container{
+        padding: 28px 0 0 0;
+    }
+    .col{
+        float: left;
+        margin: 0 30px 0 0;
+        width: 300px;
+        &:nth-child(3n){
+            margin: 0;
+        }
+        p{
+            padding: 0 0 0 9px;
+            text-align: left;
+        }
+    }
+}

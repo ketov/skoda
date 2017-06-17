@@ -1,0 +1,84 @@
+.map{
+    padding: 44px 0 0 0;
+    &__plate{
+        background: #43c52f;
+        color: #fff;
+        float: left;
+        padding: 0 0 0 11px;
+        width: 288px;
+    }
+    h3{
+        font-family: $SB;
+        font-size: 185%;
+        margin: 0;
+        padding: 10px 0 20px 0;     
+        text-transform: uppercase;
+    }
+    p{
+        font-size: 115%;
+        margin: 0;
+    }
+    a{
+        color: #fff;
+        display: block;
+        font-family: $SB;
+        text-decoration: none;
+    }
+    &__callback{
+        border-bottom: 1px solid #fff;
+        cursor: pointer;
+        display: table;
+        font-size: 110%;
+        padding: 15px 0 0 0;
+    }
+    &__container{
+        float: right;
+        position: relative;
+    }
+    &__container-info{
+        background: #fff;
+        border-left: 1px solid #c7c8c7;
+        border-right: 1px solid #c7c8c7;
+        border-top: 1px solid #c7c8c7;
+        bottom: 95px;
+        box-shadow: 0px 4px 18px -6px #444444;
+        color: #686868;
+        left: 158px;
+        padding: 25px 0 25px 32px;
+        position: absolute;
+        width: 278px;
+        z-index: 2;
+        h4{
+            font-family: $SB;
+            font-size: 95%;
+            margin: 0;
+        }
+        p{
+            font-size: 95%;
+            line-height: 140%;
+            padding: 3px 0 0 0;
+        }
+        &:after{
+            border-left: 16px solid transparent;
+            border-right: 16px solid transparent;
+            border-top: 18px solid #fff;
+            bottom: -13px;
+            content: '';
+            height: 0;
+            position: absolute;
+            width: 0;
+        }
+    }
+    &__container-callback{
+        border-bottom: 1px dotted #fbd6d9;
+        color: #5cb042;
+        cursor: pointer;
+        display: table;
+        padding: 7px 0 0 0;
+    }
+}
+#map{
+    border: 1px solid #43c52f;
+    height: 303px;
+    width: 648px;
+}
